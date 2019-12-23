@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="main" id="main">
+
+		<div class="game_window "> 
+			<span class="timer" id="time">0:0</span>
+			<a href="#" class="play" id="play">PLAY</a>
+			<div class="wrapper">
+				<a href="#" class="easy level" id="easy" >EASY</a>
+				<a href="#" class="hard level" id="hard" >HARD</a>
+				<a href="#" class="veryHard level" id="veryHard" >VERY HARD</a>
+			</div>
+
+			<a href="#" class="gameOver" id="gameOver" >GAME OVER</a>
+			<a href="#" class="result" id="result">Ваше результат: 1мин 46с</a>
+			<a href="#" class="restart" id="restart">RESTART</a>
+		</div>
+
+		<div class="stats" id="stats">
+
+			<div class="food stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			<div class="clean stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			<div class="happiness stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			
+		</div>
+
+		<div class="statsHard" id="statsVeryHard">
+
+			<div class="food stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			<div class="clean stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			<div class="happiness stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+
+			<div class="health stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			<div class="socialization stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			<div class="money stat">
+				<span>+20</span>
+				<i>100</i>
+			</div>
+			
+		</div>
+
+		<div class="button_for_stats" id="buttons">
+			<button class="btn" data-actions="eat">eat</button>
+			<button class="btn" data-actions="wash">wash</button>
+			<button class="btn" data-actions="run">run</button>
+
+			<div class="button_for_veryHard_stats" id="btn_veryHard">
+				<button class="btn_hard" data-actions="visit_doctor">visit doctor</button>
+				<button class="btn_hard" data-actions="go_to_bar">go to bar</button>
+				<button class="btn_hard" data-actions="go_to_work">go to work</button>
+				<button class="btn_hard" data-actions="byu_food">buy food</button>
+				<button class="btn_hard" data-actions="start_a_business">start a business</button>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<script src="js/main.js"></script>
+</body>
+</html>
